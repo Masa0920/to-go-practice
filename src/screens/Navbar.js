@@ -1,7 +1,6 @@
 import React from 'react';
-import Togo from '../static/images/togo.png';
 import '../static/css/Navbar.css';
-import NavbarRight from './NavbarRight';
+import NavbarRight from '../components/NavbarRight';
 
 
 

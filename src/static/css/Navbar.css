@@ -1,7 +1,9 @@
 .navbar img {
    height: 50px;
    padding-top: 20px;
+   margin: 0 auto;
 }
 .navbar {
+   display: flex;
    text-align: center;
 }

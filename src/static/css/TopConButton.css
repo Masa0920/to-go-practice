@@ -1,0 +1,7 @@
+.tcbutton {
+   display: flex;
+   width: 30%;
+   border-radius: 50px;
+   background-color: grey;
+   text-align: center;
+}
