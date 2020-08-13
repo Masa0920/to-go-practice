@@ -1,0 +1,117 @@
+.TopContainer h3 {
+  margin: 5px;
+}
+.TopContainer h2 {
+  margin: 5px;
+}
+.navbarright li {
+  width: 60px;
+  font-size: 25px;
+  color: grey;
+}
+.navbarimg:after {
+   content: "";
+   background-image: url(https://sapporo-togo.com/static/media/mokkori.d7845513.svg);
+   background-repeat: "no-repeat";
+   position: absolute;
+   z-index:1000;
+   width:100px;
+   height:20px;
+   display:inline-block;
+}
+.topconbutton {
+   box-shadow: 15px 15px 30px 0 rgba(0, 0, 0, 0.1);
+}
+.topconbutton:hover {
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
+  /* background-color: black; */
+}
+.forrestaurant img {
+  width: 30px;
+}
+.forrestaurant li {
+  margin: 5px;
+}
+
+.RCtext:hover {
+  text-decoration: underline;
+}
+.RCimg:hover {
+  /* box-shadow: 0 3px 30px 0 rgba(0, 0, 0, 0.1); */
+  transform: translateY(-0.1875em);
+}
+
+.footer a {
+  text-decoration: none;
+  color: blue;
+}
+
+.ze:after {
+  content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAARCAYAAADOk8xKAAAAAXNSR0IArs4c6QAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAHKADAAQAAAABAAAAEQAAAAC/5RIpAAABy0lEQVQ4Eb1VvU4CQRCeOY4QbITGRCn0DcQ3oDRGIr7B0SkVPgH4BF4FdpxPIAZiC2+gvoE0kNgojQQ9bpy9H9xbL7gUusll5tud2W93dmYOx+flCiE1kDAHABc77V6X5Z8NE5BsBNwFBCCgBjOtJAwOCB1xIsOj0+3r/lDousMEQRYOJi5G+grp8Nk2xToZOGDBUH8Y+qYA4na8vU8W+NFoHX9huxYhk1kKwcrwK7Y+1CZ8rVdy7HEib2KC58hYR9cmnM0/LXlDInraat0/ynM6OieN3iBAS84OBHJ+85zUypYHcCXskKAqSk7rhi+1oyIi7ssE2UzakbGqj2vHNgF0+JA58fG6T6x1QxcMS9nwLm9335Q5H4q3ns1drlOsxNa5swjMN/xObfEuMaMIEFqR6ksCJ4ZDMDk73Hv/cAeAChnBFL0gww0grAdENOLCbyZtFKs9dk5qfyLsnpF++NE82N7ERSnqSGbo3E0kCidNWBy4lBqG0ArlUoiG4ALc+jFbznLsOGIbGbOUt3vL8Ks2krm+ygnyLLdI35PgJptJ1dW31koaferAkn8Cl4V2v5nkp1UWSY6xOc4D/tVMxcchqxZayWQxn/8CX1dzkHH4TJijAAAAAElFTkSuQmCC);
+  position: absolute;
+  top: 465px;
+  left: 210px;
+}
+
+.dots {
+  margin:0;
+  padding:0;
+  background-color:blue;
+  display:block;
+}
+.dots span::before {
+  
+  padding-top:3px;
+  content: "●";
+  font-size: 20px;
+  /* font-weight: 400; */
+  height: 20px;
+  color:salmon;
+  
+}
+.two {
+  padding-top: -3px;
+  background-color: pink;
+  /* box-sizing: inherit; */
+}
+.four{
+   padding-top: 6px;
+  background-color: pink;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding-top: 20px !important;
+  }
+  .navbarimg {
+    margin: 0 auto 0 10px !important;
+  }
+  .topcontainer {
+    padding-top: 90px !important;
+  }
+  .TopContainer {
+    display: block !important;
+  }
+  .TCtext {
+    width: 100% !important;
+  }
+  .right {
+    width: 100%;
+    margin: 0 auto !important;
+  }
+  .TCbutton {
+    flex-direction: column;
+    align-items: center;
+  }
+  .topconbutton {
+    margin-top: 20px !important;
+  }
+
+  .HTUcontainer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .HTUcard {
+    width: 100% !important;
+  }
+}

@@ -1,8 +1,9 @@
 import React from 'react'
+import "../static/css/all.css"
 
 export const HTUCard = (props) => {
    return (
-      <div style={{
+      <div className="HTUcard" style={{
          width: '30%',
          textAlign: 'center',
       }}>
@@ -14,11 +15,13 @@ export const HTUCard = (props) => {
             margin: '0 auto',
             textAlign: 'center',
             lineHeight: '60px',
+            fontWeight: 1000,
+            fontSize: '30px',
          }} > {props.number} </div>
          <p> <img style={{
             width: '150px',
          }} src={props.img} alt='' /> </p>
-         <p> {props.text} </p>
+         <h3> {props.text} </h3>
       </div>
    )
 }
